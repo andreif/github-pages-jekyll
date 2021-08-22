@@ -1,8 +1,0 @@
-{
-  "private": true,
-  "devDependencies": {
-    "autoprefixer": "10.3.x",
-    "postcss": "8.3.x",
-    "tailwindcss": "2.2.x"
-  }
-}

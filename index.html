@@ -10,6 +10,7 @@ my_var: world
 
 {% capture my_cap %}
 Hello {{ page.my_var }}! {{ site.title }}
+Read more: https://jekyllrb.com/docs/includes/
 {% endcapture %}
 
 {% include partial.html content=my_cap %}

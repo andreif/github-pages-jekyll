@@ -9,7 +9,7 @@ my_var: world
 {% include partial.html content="test" %}
 
 {% capture my_cap %}
-Hello {{ page.my_var }}! {{ site.title }}
+Hello {{ page.my_var }}! {{ layout.layout_var }} {{ site.title }}
 {% endcapture %}
 
 {% include partial.html content=my_cap %}
